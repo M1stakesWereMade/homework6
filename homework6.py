@@ -8,5 +8,5 @@ print(my_list)
 my_dict = {'borsh': 'борщ', 'cabbage': 'капуста', 'bread': 'хлеб'}
 print(my_dict)
 print(my_dict['borsh'])
-my_dict.update({'potato': 'картошка'})
+my_dict['potato'] = 'картошка'
 print(my_dict)
